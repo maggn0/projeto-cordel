@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+@font-face {
+    font-family: 'font1';
+    src: url('PassionOne-Bold.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url('Sriracha-Regular.ttf') format('opentype');
+}
+:root {
+    --font1:'font1';
+    --font2:'font2';
+}
+
+header {
+    background-color: black;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-size: 10vw;
+    font-family: var(--font1);
+    font-variant: small-caps;
+
+    padding-top: 50px;
+
+}
+
+header p {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 40px;
+
+}
+
+header p a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.normal {
+    background-color: white;
+    color: black;
+    font-size: 3.5vw;
+    font-weight: 500;
+    font-family:var(--font2), cursive;
+
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+
+    display: block;
+}
+
+.normal p{
+    padding-bottom: 60px;
+}
+
+header p a:hover {
+    text-decoration: underline;
+}
+
+.imagem#img01 {
+    font-size: 3.5vw;
+    font-weight: 500;
+    font-family:var(--font2), cursive;
+
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+
+
+    background-image: url('joaninha.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imagem p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.212);
+    background-size: cover;
+    border-radius: 10px;
+
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.imagem#img02{
+    font-size: 3.5vw;
+    font-weight: 500;
+    font-family:var(--font2), cursive;
+
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+
+    background-image: url('folhas.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+footer {
+    background-color: black;
+}
+
+footer p {
+    color: white;
+    padding: 10px;
+
+    text-align: center;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer p a{
+    padding-left: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
