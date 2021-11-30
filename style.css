@@ -28,8 +28,9 @@ header h1 {
     text-align: center;
     font-size: 10vw;
     font-family: var(--font1);
-    font-variant: small-caps;
 
+    font-variant: small-caps;
+    
     padding-top: 50px;
 
 }
@@ -63,7 +64,7 @@ header p a {
     display: block;
 }
 
-.normal p{
+.normal p {
     padding-bottom: 60px;
 }
 
