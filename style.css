@@ -7,12 +7,12 @@
 
 @font-face {
     font-family: 'font1';
-    src: url('PassionOne-Bold.ttf') format('opentype');
+    src: url('fonts/PassionOne-Bold.ttf') format('opentype');
 }
 
 @font-face {
     font-family: 'font2';
-    src: url('Sriracha-Regular.ttf') format('opentype');
+    src: url('fonts/Sriracha-Regular.ttf') format('opentype');
 }
 :root {
     --font1:'font1';
@@ -83,7 +83,7 @@ header p a:hover {
     padding-left: 30px;
 
 
-    background-image: url('joaninha.jpg');
+    background-image: url('imgs/joaninha.jpg');
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -110,7 +110,7 @@ header p a:hover {
     padding-bottom: 10vh;
     padding-left: 30px;
 
-    background-image: url('folhas.jpg');
+    background-image: url('imgs/folhas.jpg');
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
